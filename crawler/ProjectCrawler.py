@@ -2,10 +2,31 @@ import os
 import pygraphviz
 
 
-class ProjectCrawler():
+class Crawler():
     """makes a directory tree into a python dictionary"""
-    def __init__(self, root):
+    def __init__(self):
         pass
+
+    def target(self, path):
+        """
+        returns the node, its children, its parents, and its siblings
+        """
+        parent = os.path.dirname(path)
+        siblings = self.fill(parent)
+        children = self.fill(path)
+
+        return parent, siblings, children
+
+        #parent[path] = children
+
+    def fill(self, path):
+        try:
+            contents = os.listdir(path)
+        except:
+            return
+        files = [f for f in contents if os.path.isfile(os.path.join(path, f))]
+        dirpaths = [os.path.join(path, d) for d in contents if os.path.isdir(os.path.join(path, d))]
+        return (dirpaths, files)
 
 
 class Node():
@@ -15,15 +36,7 @@ class Node():
         self.full_path = full_path
         self.files = self.isdir and files
         self.dirs = self.isdir and dirs
-        self.scan_dir()
 
-    def scan_dir(self):
-        contents = os.listdir(self.full_path)
-        files = [f for f in contents if os.path.isfile(os.path.join(self.full_path, f))]
-        self.files = files
-        dirpaths = [os.path.join(self.full_path, d) for d in contents if os.path.isdir(os.path.join(self.full_path, d))]
-        dirpaths = filter(lambda x: ".git" not in x, dirpaths)
-        self.dirs = [Node(d) for d in dirpaths]
 
     def __str__(self):
         s = "\n" + "------" + "\n"
@@ -37,7 +50,7 @@ class Node():
     def to_graphviz(self):
         """
         @rType: String
-        returns a graphviz graph string
+        returns a graphviz graph as a string
         """
         s = "digraph G {\n"
         s += " main [shape=box]; "
@@ -54,5 +67,8 @@ class Node():
             s += "\"" + me + "\"" + " -> " + "\"" + d.full_path + "\"" + ";\n"
             s += d.gv_data()
         return s
+
+
+
 
 

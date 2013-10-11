@@ -1,17 +1,14 @@
-from crawler.ProjectCrawler import ProjectCrawler, Node
+from crawler.ProjectCrawler import Crawler
 import os
+from pprint import pprint
 from functools import partial
 from pprint import pprint as p
+from graph.Edge import Edge, DirectedEdge
+from graph.graph_plot_panel import GraphPlotPanel
 
+crawler = Crawler()
 
-my_dir = "/Users/bcm/dev/clojure-koans"
+graph = GraphPlotPanel(edge_class=DirectedEdge)
 
-d = Node(my_dir)
-
-if os.path.isfile("graph.dot"):
-    os.remove("graph.dot")
-
-with open("graph.dot", "w") as f:
-    f.write(d.to_graphviz())
-
-#print d
+graph.graphviz("/Users/bcm/PycharmProjects/python_crawler/graph.dot")
+graph.run()
