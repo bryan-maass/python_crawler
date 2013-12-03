@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5270807-b3e6-401e-a313-7c33b51fb77b" name="Default" comment="refactored graph, doing viz interop now">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graph/Edge.py" afterPath="$PROJECT_DIR$/graph/Edge.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawler/ProjectCrawler.py" afterPath="$PROJECT_DIR$/crawler/ProjectCrawler.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graph/Vertex.py" afterPath="$PROJECT_DIR$/graph/Vertex.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graph/common.py" afterPath="$PROJECT_DIR$/graph/common.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/driver.py" afterPath="$PROJECT_DIR$/driver.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graph/force_directed_graph.py" afterPath="$PROJECT_DIR$/graph/force_directed_graph.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graph/graph_plot_panel.py" afterPath="$PROJECT_DIR$/graph/graph_plot_panel.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/python_crawler.iml" afterPath="$PROJECT_DIR$/.idea/python_crawler.iml" />
+    <list default="true" id="c5270807-b3e6-401e-a313-7c33b51fb77b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="python_crawler.iws" />
@@ -24,9 +16,9 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/python_crawler$ProjectCrawler.coverage" NAME="ProjectCrawler Coverage Results" MODIFIED="1381044065615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawler" />
     <SUITE FILE_PATH="coverage/python_crawler$Edge.coverage" NAME="Edge Coverage Results" MODIFIED="1381018469386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/graph" />
-    <SUITE FILE_PATH="coverage/python_crawler$driver.coverage" NAME="driver Coverage Results" MODIFIED="1381421449925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_crawler$force_directed_graph.coverage" NAME="force_directed_graph Coverage Results" MODIFIED="1381042506082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/graph" />
+    <SUITE FILE_PATH="coverage/python_crawler$driver.coverage" NAME="driver Coverage Results" MODIFIED="1381702725377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_crawler$graph_plot_panel.coverage" NAME="graph_plot_panel Coverage Results" MODIFIED="1381388850716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/graph" />
+    <SUITE FILE_PATH="coverage/python_crawler$force_directed_graph.coverage" NAME="force_directed_graph Coverage Results" MODIFIED="1381042506082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/graph" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -51,19 +43,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="pydevd.py" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="1138" column="0" selection-start="47511" selection-end="47511" vertical-scroll-proportion="0.0" vertical-offset="17070" max-vertical-offset="21570">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="graph_plot_panel.py" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="graph_plot_panel.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/graph/graph_plot_panel.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="83" column="47" selection-start="2658" selection-end="2658" vertical-scroll-proportion="-5.5601926" vertical-offset="4649" max-vertical-offset="5490">
+                <state line="83" column="47" selection-start="2658" selection-end="2658" vertical-scroll-proportion="0.0" vertical-offset="4500" max-vertical-offset="5490">
                   <folding />
                 </state>
               </provider>
@@ -72,7 +55,7 @@
           <file leaf-file-name="Vertex.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/graph/Vertex.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="39" column="0" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="870">
+                <state line="39" column="0" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.0" vertical-offset="79" max-vertical-offset="870">
                   <folding />
                 </state>
               </provider>
@@ -81,16 +64,16 @@
           <file leaf-file-name="ProjectCrawler.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/crawler/ProjectCrawler.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="6" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1185">
+                <state line="4" column="6" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1185">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Edge.py" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="Edge.py" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/graph/Edge.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="13" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1275">
+                <state line="48" column="0" selection-start="1350" selection-end="1350" vertical-scroll-proportion="0.6068268" vertical-offset="195" max-vertical-offset="1275">
                   <folding />
                 </state>
               </provider>
@@ -99,13 +82,22 @@
         </leaf>
       </split-first>
       <split-second>
-        <splitter split-orientation="vertical" split-proportion="0.35788262">
+        <splitter split-orientation="vertical" split-proportion="0.5">
           <split-first>
             <leaf>
-              <file leaf-file-name="graph.dot" pinned="false" current="true" current-in-tab="true">
+              <file leaf-file-name="driver.py" pinned="false" current="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/driver.py">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state line="13" column="11" selection-start="384" selection-end="384" vertical-scroll-proportion="0.27631578" vertical-offset="0" max-vertical-offset="380">
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="graph.dot" pinned="false" current="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/graph.dot">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="14" column="38" selection-start="549" selection-end="549" vertical-scroll-proportion="0.4827586" vertical-offset="112" max-vertical-offset="315">
+                    <state line="1" column="4" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
                       <folding />
                     </state>
                   </provider>
@@ -115,13 +107,11 @@
           </split-first>
           <split-second>
             <leaf>
-              <file leaf-file-name="driver.py" pinned="false" current="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/driver.py">
+              <file leaf-file-name="graph.dot" pinned="false" current="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/graph.dot">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="13" column="11" selection-start="384" selection-end="384" vertical-scroll-proportion="0.5091384" vertical-offset="0" max-vertical-offset="383">
-                      <folding>
-                        <element signature="e#0#42#0" expanded="true" />
-                      </folding>
+                    <state line="4" column="1" selection-start="46" selection-end="46" vertical-scroll-proportion="0.16" vertical-offset="0" max-vertical-offset="375">
+                      <folding />
                     </state>
                   </provider>
                 </entry>
@@ -154,8 +144,8 @@
         <option value="$PROJECT_DIR$/graph/Edge.py" />
         <option value="$PROJECT_DIR$/graph/Vertex.py" />
         <option value="$PROJECT_DIR$/graph/graph_plot_panel.py" />
-        <option value="$PROJECT_DIR$/graph.dot" />
         <option value="$PROJECT_DIR$/driver.py" />
+        <option value="$PROJECT_DIR$/graph.dot" />
       </list>
     </option>
   </component>
@@ -163,9 +153,9 @@
     <option name="ENABLED" value="false" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
+    <option name="x" value="1920" />
     <option name="width" value="1920" />
-    <option name="height" value="878" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -210,15 +200,15 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="/usr/bin/python" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="276" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1070" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1070" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1070" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="276" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="273" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -411,9 +401,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -435,6 +422,9 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -526,11 +516,15 @@
       <created>1381016666278</created>
       <updated>1381016666278</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refactored graph, doing viz interop now">
+      <created>1381469984415</created>
+      <updated>1381469984415</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="878" extended-state="0" />
+    <frame x="1920" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -542,7 +536,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34822336" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19357143" sideWeight="0.31154382" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991655" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16858238" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16852792" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="122" width="1720" height="858" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -571,9 +565,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19583334" sideWeight="0.7518172" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24818276" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -615,9 +609,7 @@
     </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm30/python_stubs/-1199944087/pygame/display.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2790">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2790" />
       </provider>
     </entry>
     <entry file="uml://Python/#/Library/Python/2.7/site-packages/pygame/__init__.py">
@@ -659,9 +651,9 @@
         <state line="884" column="0" selection-start="31651" selection-end="31651" vertical-scroll-proportion="0.73651195" vertical-offset="12568" max-vertical-offset="13545" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graph/Edge.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1275">
+        <state line="1138" column="0" selection-start="47511" selection-end="47511" vertical-scroll-proportion="-1.2724936" vertical-offset="17070" max-vertical-offset="21570">
           <folding />
         </state>
       </provider>
@@ -673,18 +665,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/driver.py">
+    <entry file="file://$PROJECT_DIR$/graph/graph_plot_panel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="11" selection-start="384" selection-end="384" vertical-scroll-proportion="0.5091384" vertical-offset="0" max-vertical-offset="383">
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1138" column="0" selection-start="47511" selection-end="47511" vertical-scroll-proportion="0.0" vertical-offset="15880" max-vertical-offset="21570">
+        <state line="83" column="47" selection-start="2658" selection-end="2658" vertical-scroll-proportion="0.0" vertical-offset="4500" max-vertical-offset="5490">
           <folding />
         </state>
       </provider>
@@ -703,16 +686,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graph/graph_plot_panel.py">
+    <entry file="file://$PROJECT_DIR$/graph.dot">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="47" selection-start="2658" selection-end="2658" vertical-scroll-proportion="-5.5601926" vertical-offset="4649" max-vertical-offset="5490">
+        <state line="1" column="4" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graph.dot">
+    <entry file="file://$PROJECT_DIR$/driver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="38" selection-start="549" selection-end="549" vertical-scroll-proportion="0.4827586" vertical-offset="112" max-vertical-offset="315">
+        <state line="13" column="11" selection-start="384" selection-end="384" vertical-scroll-proportion="0.27631578" vertical-offset="0" max-vertical-offset="380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph/Edge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="0" selection-start="1350" selection-end="1350" vertical-scroll-proportion="0.6068268" vertical-offset="195" max-vertical-offset="1275">
           <folding />
         </state>
       </provider>
